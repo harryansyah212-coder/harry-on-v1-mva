@@ -1,0 +1,405 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-20T06:40:15.986172",
+  "projects": {
+    "b32971701fabaadb": {
+      "name": "AI Hybrid v4.0.0 Trinity",
+      "type": "ai_orchestration",
+      "description": "4-AI hybrid system: Claude Opus 4.8 (30%), GPT-5.5 Pro (50%), Kimi K2.6 (20%)",
+      "created_at": "2026-06-20T06:40:15.963232",
+      "last_active": "2026-06-20T06:40:15.963235",
+      "status": "active",
+      "metadata": {
+        "module_key": "ai_hybrid",
+        "path": "harry_ai_hybrid_v3/",
+        "expected_files": 12,
+        "key_files": [
+          "router.py",
+          "aggregator.py",
+          "evaluator.py",
+          "fallback.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "f5f3c72d6bd3f2f1": {
+      "name": "Cybersecurity Module",
+      "type": "security",
+      "description": "HARRY Firewall, threat detection, vulnerability assessment",
+      "created_at": "2026-06-20T06:40:15.964133",
+      "last_active": "2026-06-20T06:40:15.964136",
+      "status": "active",
+      "metadata": {
+        "module_key": "cybersecurity",
+        "path": "modules/cybersecurity/",
+        "expected_files": 8,
+        "key_files": [
+          "firewall.py",
+          "scanner.py",
+          "detector.py",
+          "reporter.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "112bcf503677f962": {
+      "name": "DDoS Protection",
+      "type": "security",
+      "description": "6-layer DDoS defense system",
+      "created_at": "2026-06-20T06:40:15.965106",
+      "last_active": "2026-06-20T06:40:15.965109",
+      "status": "active",
+      "metadata": {
+        "module_key": "ddos_protection",
+        "path": "modules/ddos_protection/",
+        "expected_files": 8,
+        "key_files": [
+          "shield.py",
+          "mitigator.py",
+          "analyzer.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "9293ceda79359eca": {
+      "name": "DDoS Resilience",
+      "type": "security",
+      "description": "Resilience and recovery mechanisms",
+      "created_at": "2026-06-20T06:40:15.966113",
+      "last_active": "2026-06-20T06:40:15.966116",
+      "status": "active",
+      "metadata": {
+        "module_key": "ddos_resilience",
+        "path": "modules/ddos_resilience/",
+        "expected_files": 6,
+        "key_files": [
+          "resilience.py",
+          "recovery.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "60a17c88c0b4500e": {
+      "name": "Web Vulnerability Scanner",
+      "type": "security",
+      "description": "OWASP Top 10, Port Scanner, Subdomain, Directory brute-force, SSL/TLS audit",
+      "created_at": "2026-06-20T06:40:15.970370",
+      "last_active": "2026-06-20T06:40:15.970373",
+      "status": "active",
+      "metadata": {
+        "module_key": "web_scanner",
+        "path": "modules/web_scanner/",
+        "expected_files": 10,
+        "key_files": [
+          "scanner.py",
+          "owasp.py",
+          "ssl_audit.py",
+          "reporter.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "af181539cc0051d3": {
+      "name": "StoryCraft AI",
+      "type": "creative",
+      "description": "8-module creative writing system: Hook, Pacing, Market, Emotional Arc, Conflict, Dialogue, Revision, Export",
+      "created_at": "2026-06-20T06:40:15.971296",
+      "last_active": "2026-06-20T06:40:15.971299",
+      "status": "active",
+      "metadata": {
+        "module_key": "storycraft",
+        "path": "modules/storycraft/",
+        "expected_files": 18,
+        "key_files": [
+          "hook_engine.py",
+          "pacing.py",
+          "market_intel.py",
+          "export.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "6a1256028457a456": {
+      "name": "Creative Suite Preset Master",
+      "type": "creative",
+      "description": "680+ Adobe & CorelDRAW presets, Color Science Engine",
+      "created_at": "2026-06-20T06:40:15.972294",
+      "last_active": "2026-06-20T06:40:15.972297",
+      "status": "active",
+      "metadata": {
+        "module_key": "creative_suite",
+        "path": "modules/creative_suite_preset_master/",
+        "expected_files": 10,
+        "key_files": [
+          "preset_engine.py",
+          "color_science.py",
+          "workflows.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "f84575abe5587c33": {
+      "name": "Digital Product Business Expert",
+      "type": "business",
+      "description": "6 Expert Engines: Niche Research, Product Creation, Platform, Marketing, Scaling, Analytics",
+      "created_at": "2026-06-20T06:40:15.973301",
+      "last_active": "2026-06-20T06:40:15.973304",
+      "status": "active",
+      "metadata": {
+        "module_key": "digital_product",
+        "path": "modules/digital_product_expert/",
+        "expected_files": 11,
+        "key_files": [
+          "niche_engine.py",
+          "product_creator.py",
+          "marketing.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "8c95535bab728ece": {
+      "name": "Ebook Digital Product",
+      "type": "business",
+      "description": "Ebook HTML premium layout, PDF, cover PNG, sales page",
+      "created_at": "2026-06-20T06:40:15.974424",
+      "last_active": "2026-06-20T06:40:15.974427",
+      "status": "active",
+      "metadata": {
+        "module_key": "ebook",
+        "path": "modules/ebook_digital_product/",
+        "expected_files": 5,
+        "key_files": [
+          "ebook.html",
+          "sales_page.html",
+          "cover.png"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "d8c0a0fddf35d1dd": {
+      "name": "Kimi K2.6 Agent Module v2.0",
+      "type": "ai_agent",
+      "description": "24-file agent system for Kimi K2.6 optimization",
+      "created_at": "2026-06-20T06:40:15.975621",
+      "last_active": "2026-06-20T06:40:15.975624",
+      "status": "active",
+      "metadata": {
+        "module_key": "kimi_agent",
+        "path": "modules/kimi_k2_agent/",
+        "expected_files": 24,
+        "key_files": [
+          "agent.py",
+          "optimizer.py",
+          "executor.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "27baf126e82bd173": {
+      "name": "Vibe Coding 2.0",
+      "type": "development",
+      "description": "Multi-Agent Orchestration, Self-Healing, LLM Docs, Security Hardening",
+      "created_at": "2026-06-20T06:40:15.976794",
+      "last_active": "2026-06-20T06:40:15.976797",
+      "status": "active",
+      "metadata": {
+        "module_key": "vibe_coding",
+        "path": "modules/vibe_coding_2/",
+        "expected_files": 16,
+        "key_files": [
+          "orchestrator.py",
+          "healer.py",
+          "boilerplate.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "6cc9c6c9307a862f": {
+      "name": "AI Writing & Editing Evaluator",
+      "type": "content",
+      "description": "53 tasks, 12 categories, quality evaluation system",
+      "created_at": "2026-06-20T06:40:15.978000",
+      "last_active": "2026-06-20T06:40:15.978005",
+      "status": "active",
+      "metadata": {
+        "module_key": "ai_writing",
+        "path": "modules/ai_writing_evaluator/",
+        "expected_files": 18,
+        "key_files": [
+          "evaluator.py",
+          "scorer.py",
+          "reporter.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "9894e1a2d78a67f2": {
+      "name": "Aider Integration",
+      "type": "development",
+      "description": "Multi-AI auto-rotation, git integration, GitHub Codespaces support",
+      "created_at": "2026-06-20T06:40:15.979310",
+      "last_active": "2026-06-20T06:40:15.979313",
+      "status": "active",
+      "metadata": {
+        "module_key": "aider",
+        "path": "modules/aider_integration/",
+        "expected_files": 10,
+        "key_files": [
+          "aider_bridge.py",
+          "git_sync.py",
+          "codespaces.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "8cc6c63a5bb5bf87": {
+      "name": "Anti-Interruption Shield v5.0",
+      "type": "system",
+      "description": "30 features, 7 tiers, unlimited conversation potential",
+      "created_at": "2026-06-20T06:40:15.980593",
+      "last_active": "2026-06-20T06:40:15.980596",
+      "status": "active",
+      "metadata": {
+        "module_key": "anti_interrupt",
+        "path": "modules/anti_interruption_shield/",
+        "expected_files": 10,
+        "key_files": [
+          "shield.py",
+          "protector.py",
+          "enforcer.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "9e53cff3d04b867d": {
+      "name": "Learning Hub",
+      "type": "education",
+      "description": "AI-powered learning management system",
+      "created_at": "2026-06-20T06:40:15.981952",
+      "last_active": "2026-06-20T06:40:15.981955",
+      "status": "active",
+      "metadata": {
+        "module_key": "learning_hub",
+        "path": "modules/learning_hub/",
+        "expected_files": 9,
+        "key_files": [
+          "hub.py",
+          "courses.py",
+          "progress.py"
+        ],
+        "category": "harry_on_module"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "848a597dff240bca": {
+      "name": "AI Story Generator v2.0",
+      "type": "web_app",
+      "description": "Multi-chapter story generator, 7 genres, 40 chapters, export TXT/MD/JSON",
+      "created_at": "2026-06-20T06:40:15.983420",
+      "last_active": "2026-06-20T06:40:15.983423",
+      "status": "active",
+      "metadata": {
+        "module_key": "ai_story_generator",
+        "path": "ai_story_generator/",
+        "expected_files": 1,
+        "key_files": [
+          "ai_story_generator_v2_chapters.html"
+        ],
+        "category": "standalone"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "f1ba8cb21a88f681": {
+      "name": "Phone & WhatsApp Tracker",
+      "type": "web_app",
+      "description": "Next.js + Vercel, IP geolocation, WhatsApp link generator",
+      "created_at": "2026-06-20T06:40:15.984779",
+      "last_active": "2026-06-20T06:40:15.984781",
+      "status": "active",
+      "metadata": {
+        "module_key": "phone_tracker",
+        "path": "phone_whatsapp_tracker/",
+        "expected_files": 15,
+        "key_files": [
+          "page.tsx",
+          "layout.tsx",
+          "api routes"
+        ],
+        "category": "standalone"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    },
+    "488042f54c882108": {
+      "name": "Auto-Clip Video Tool",
+      "type": "tool",
+      "description": "Auto hook detection, viral scoring, smart clip generation, Whisper captions",
+      "created_at": "2026-06-20T06:40:15.986166",
+      "last_active": "2026-06-20T06:40:15.986168",
+      "status": "active",
+      "metadata": {
+        "module_key": "auto_clip",
+        "path": "auto_clip_tool/",
+        "expected_files": 25,
+        "key_files": [
+          "clipper.py",
+          "scorer.py",
+          "caption.py"
+        ],
+        "category": "standalone"
+      },
+      "sessions": [],
+      "file_count": 0,
+      "total_size_bytes": 0
+    }
+  },
+  "sessions": {},
+  "archives": {}
+}
